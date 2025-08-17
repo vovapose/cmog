@@ -1,0 +1,3 @@
+/home/vboxuser/project/game/build/CMakeFiles/game.dir
+/home/vboxuser/project/game/build/CMakeFiles/edit_cache.dir
+/home/vboxuser/project/game/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/game.dir/src/main.c.o CMakeFiles/game.dir/src/arrayOperations.c.o -o game  -Wl,-rpath,/usr/local/lib /usr/local/lib/libraylib.so -lpthread -ldl -lGL -lX11 
