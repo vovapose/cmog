@@ -42,7 +42,25 @@ char  MergeArray(unsigned char ** OldArray,unsigned char ** NewAray,int OldSize,
         }
     }      
 }
+char  IsColomnEmpty(unsigned char ** array,int size,int colom)
+{
+    for (int i = 0;i < size;i++)
+    {
+        if(array[i][colom] != 0)
+            return 0;
+    }
+    return 1;
+}
 
+char IsRowEmpty(unsigned char ** array,int size,int row)
+{
+    for (int i = 0;i < size;i++)
+    {
+        if(array[row][i] != 0)
+            return 0;
+    }
+    return 1;
+}
 void DeleteArray(unsigned char ** array,int rows,int coloms)
 {
     for(int i = 0;i < rows;i++)
